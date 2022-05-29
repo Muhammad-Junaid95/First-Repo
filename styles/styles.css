@@ -1,3 +1,227 @@
-h1{
-    border: 1px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+.head h1{
+    text-align: right;
+    padding-right: 300px;
+}
+
+.main{
+    display: flex;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    position: relative;
+    left: 150px;
+    overflow: hidden;
+}
+
+.menubar i{
+    font-size: 20px;
+    height: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fa-solid{
+    color: pink;
+    text-decoration: none;
+}
+
+.fa-comment:hover{
+    color: white;
+    background-color: pink;
+}
+
+.fa-bars{
+    padding: 8px 15px 30px 15px;
+}
+
+.fa-bars:hover{
+    color: white;
+    background-color: pink;
+}
+
+.fa-regular{
+    color: pink;
+}
+
+.fa-user:hover{
+    color: white;
+    background-color: pink;
+}
+
+.fa-file-pen:hover{
+    color: white;
+    background-color: pink;
+}
+
+.fa-glasses:hover{
+    color: white;
+    background-color: pink;
+}
+
+.fa-briefcase:hover{
+    color: white;
+    background-color: pink;
+}
+
+.fa-cloud-arrow-down:hover{
+    color: white;
+    background-color: pink;
+}
+
+.menubar a{
+    text-decoration: none;
+}
+
+.fa-user{
+    padding: 40px 15px 4px 15px;
+}
+
+.fa-comment{
+    padding: 4px 15px 4px 15px;
+}
+
+.fa-file-pen{
+    padding: 4px 15px 4px 15px;
+}
+
+.fa-glasses{
+    padding: 4px 15px 4px 15px;
+}
+
+.fa-briefcase{
+    padding: 4px 15px 4px 15px;
+}
+
+.fa-cloud-arrow-down{
+    padding: 60px 15px 4px 15px;
+}
+
+.image{
+    position: absolute;
+    left: 200px;
+    bottom: -35px;
+}
+
+.title p{
+    font-size: 25px;
+    padding: 10px 0px 0px 10px;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+}
+
+.title{
+    position: relative;
+    bottom: 155px;
+    font-size: 18px;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title i{
+    position: relative;
+    padding: 5px 3px 0px 20px;
+    bottom: -15px;
+    
+}
+
+img{
+    height: 540px;
+    box-shadow: 1px 1px 5px 1px pink;
+    border-radius: 3px;
+}
+
+.icons i{
+    display: block;
+}
+
+
+.content{
+    display: fixed;
+    padding: 15px 10px 0px 470px;
+    overflow: hidden;
+}
+
+.fa-facebook-f{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook-f:hover{
+    color: pink;
+}
+
+.fa-globe{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-globe:hover{
+    color: pink;
+}
+
+.fa-linkedin-in{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-linkedin-in:hover{
+    color: pink;
+}
+
+
+.fa-behance{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-behance:hover{
+    color: pink;
+}
+
+.fa-display{
+    color: pink;
+    text-decoration: none;
+}
+.fa-rocket{
+    color: pink;
+    text-decoration: none;
+}
+
+.services{
+    font-size: larger;
+    text-align: left;
+    padding: 3px 0 13px 0;
+}
+
+.table-check{
+    overflow: hidden;
+}
+
+table td{
+    padding: 3px;
+}
+
+.sub-heading td{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.describe{
+    text-align: left;
 }
